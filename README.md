@@ -4,7 +4,7 @@ A card company sees hundreds of thousands of payments a day, and fewer than 2 in
 unusual payment would anger good customers; letting fraud through costs money. The useful thing is a score that
 puts the fraud at the top of the list, so the few payments worth checking are checked first.
 
-Using a Kaggle competition dataset of 700,000 labelled card payments (synthetic, modelled on real fraud data), I
+Using a [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s6e11) dataset of 700,000 labelled card payments (synthetic, modelled on real fraud data), I
 built such a score. **Flagging the 5% of payments it rates highest catches 73% of all fraud**, and in its top 1%,
 two of every three payments are fraud.
 
