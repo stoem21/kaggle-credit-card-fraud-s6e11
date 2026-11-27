@@ -1,0 +1,16 @@
+# Python 3.11
+# Setup: uv venv --python 3.11 .venv && uv pip install --python .venv/bin/python -r requirements.txt
+# macOS: LightGBM needs OpenMP ->  brew install libomp
+numpy==2.4.6
+pandas==3.1.1
+pyarrow==26.0.1
+scipy==1.17.1
+matplotlib==3.11.2
+scikit-learn==1.9.1
+lightgbm==4.7.0
+xgboost==3.2.0
+ipykernel==7.4.0
+torch==2.15.0  # NN blend member (experiments/nn_mlp.py); uses Apple MPS if available
+catboost==1.2.10  # blend member
+pytabkit==1.8.0  # RealMLP / TabM blend members
+interpret-core==0.7.8

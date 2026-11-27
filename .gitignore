@@ -1,0 +1,26 @@
+# Competition data: do not redistribute
+data/raw/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+*.zip
+*.parquet
+
+# Large / generated
+outputs/**/*.npy
+submission/*.csv
+submission/*.manifest.json
+!submission/stack_v5_x3_7seeds_zone1.manifest.json
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Training debris, logs (contain local paths), re-run outputs
+catboost_info/
+outputs/**/*.log
+*.log
+outputs_repro/
+# Personal assistant instructions (not part of the project)
+CLAUDE.md
+.claude/

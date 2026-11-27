@@ -1,0 +1,97 @@
+example,row,column,contribution
+missed fraud #1,450410,account_balance_usd,0.31603197187563514
+missed fraud #1,450410,amount_usd,-0.047152534575977983
+missed fraud #1,450410,auth_method,0.07426290935254785
+missed fraud #1,450410,billing_shipping_mismatch,-0.03288465854322829
+missed fraud #1,450410,card_age_months,-0.003411464722219354
+missed fraud #1,450410,card_type,-0.055189781162490625
+missed fraud #1,450410,channel,-0.09650954873135964
+missed fraud #1,450410,customer_age,0.2581579813547759
+missed fraud #1,450410,cvv_retry_count,-0.1957250232057668
+missed fraud #1,450410,device_type,-0.03905928489564637
+missed fraud #1,450410,distance_from_home_km,-0.030594557554185817
+missed fraud #1,450410,hours_since_last_txn,-0.1073151874940349
+missed fraud #1,450410,ip_country_mismatch,-0.035498154287074535
+missed fraud #1,450410,is_ai_generated_scam_attempt,-0.008585160388051016
+missed fraud #1,450410,is_foreign_transaction,-0.026109254561882157
+missed fraud #1,450410,is_new_merchant,-0.233238599462549
+missed fraud #1,450410,merchant_category,-0.24378788298467635
+missed fraud #1,450410,merchant_risk_score,1.4985627408715683
+missed fraud #1,450410,pairs of columns,-0.1476008591410308
+missed fraud #1,450410,prior_disputes,-0.06496460207547475
+missed fraud #1,450410,txn_count_last_24h,0.05141433318382865
+missed fraud #1,450410,used_vpn,-0.0543547151706637
+missed fraud #1,450410,velocity_score,0.33651838216899765
+missed fraud #1,450410,(intercept),-6.610168611907664
+missed fraud #2,379420,account_balance_usd,-0.03111523245842608
+missed fraud #2,379420,amount_usd,0.11312016001978287
+missed fraud #2,379420,auth_method,-0.9370452073939002
+missed fraud #2,379420,billing_shipping_mismatch,-0.03288465854322829
+missed fraud #2,379420,card_age_months,-0.003411464722219354
+missed fraud #2,379420,card_type,0.13032607151766556
+missed fraud #2,379420,channel,0.11373571578387964
+missed fraud #2,379420,customer_age,0.5709663423765395
+missed fraud #2,379420,cvv_retry_count,-0.1957250232057668
+missed fraud #2,379420,device_type,-0.06412928269466055
+missed fraud #2,379420,distance_from_home_km,-0.05723510822956523
+missed fraud #2,379420,hours_since_last_txn,0.0007350612408806856
+missed fraud #2,379420,ip_country_mismatch,-0.035498154287074535
+missed fraud #2,379420,is_ai_generated_scam_attempt,-0.008585160388051016
+missed fraud #2,379420,is_foreign_transaction,-0.026109254561882157
+missed fraud #2,379420,is_new_merchant,-0.233238599462549
+missed fraud #2,379420,merchant_category,-0.05480163439703511
+missed fraud #2,379420,merchant_risk_score,0.7929014741735354
+missed fraud #2,379420,pairs of columns,0.0265191534472115
+missed fraud #2,379420,prior_disputes,-0.06496460207547475
+missed fraud #2,379420,txn_count_last_24h,0.05141433318382865
+missed fraud #2,379420,used_vpn,-0.0543547151706637
+missed fraud #2,379420,velocity_score,1.3050246564311785
+missed fraud #2,379420,(intercept),-6.610168611907664
+missed fraud #3,549432,account_balance_usd,-0.15029254273341303
+missed fraud #3,549432,amount_usd,-0.016832242745583856
+missed fraud #3,549432,auth_method,0.10317566826009039
+missed fraud #3,549432,billing_shipping_mismatch,-0.03288465854322829
+missed fraud #3,549432,card_age_months,0.0377831087207714
+missed fraud #3,549432,card_type,0.017417420847117913
+missed fraud #3,549432,channel,0.11373571578387964
+missed fraud #3,549432,customer_age,0.627614941272836
+missed fraud #3,549432,cvv_retry_count,-0.1957250232057668
+missed fraud #3,549432,device_type,-0.06412928269466055
+missed fraud #3,549432,distance_from_home_km,0.10541211507475041
+missed fraud #3,549432,hours_since_last_txn,-0.08911149014728126
+missed fraud #3,549432,ip_country_mismatch,-0.035498154287074535
+missed fraud #3,549432,is_ai_generated_scam_attempt,-0.008585160388051016
+missed fraud #3,549432,is_foreign_transaction,-0.026109254561882157
+missed fraud #3,549432,is_new_merchant,-0.233238599462549
+missed fraud #3,549432,merchant_category,-0.04273383034035326
+missed fraud #3,549432,merchant_risk_score,0.43655318729589415
+missed fraud #3,549432,pairs of columns,0.074955645447829
+missed fraud #3,549432,prior_disputes,-0.06496460207547475
+missed fraud #3,549432,txn_count_last_24h,0.09734310568264555
+missed fraud #3,549432,used_vpn,-0.0543547151706637
+missed fraud #3,549432,velocity_score,0.5707087702617264
+missed fraud #3,549432,(intercept),-6.610168611907664
+caught fraud,26562,account_balance_usd,0.002023258490364336
+caught fraud,26562,amount_usd,0.24458655975536847
+caught fraud,26562,auth_method,0.07426290935254785
+caught fraud,26562,billing_shipping_mismatch,2.5122924631063177
+caught fraud,26562,card_age_months,-0.004765129069438159
+caught fraud,26562,card_type,0.017417420847117913
+caught fraud,26562,channel,-0.09650954873135964
+caught fraud,26562,customer_age,0.7972195788019062
+caught fraud,26562,cvv_retry_count,2.105893799331376
+caught fraud,26562,device_type,0.017620134793852184
+caught fraud,26562,distance_from_home_km,0.10674208337364037
+caught fraud,26562,hours_since_last_txn,-0.053216955400108755
+caught fraud,26562,ip_country_mismatch,2.1345706732046885
+caught fraud,26562,is_ai_generated_scam_attempt,-0.008585160388051016
+caught fraud,26562,is_foreign_transaction,1.4744908746086018
+caught fraud,26562,is_new_merchant,-0.233238599462549
+caught fraud,26562,merchant_category,0.08740467719733816
+caught fraud,26562,merchant_risk_score,0.8041238545829705
+caught fraud,26562,pairs of columns,-0.07738227773571267
+caught fraud,26562,prior_disputes,-0.06496460207547475
+caught fraud,26562,txn_count_last_24h,-0.2346566442486843
+caught fraud,26562,used_vpn,-0.0543547151706637
+caught fraud,26562,velocity_score,-0.33479459465266226
+caught fraud,26562,(intercept),-6.610168611907664

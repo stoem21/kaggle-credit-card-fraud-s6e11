@@ -1,0 +1,5 @@
+example,row,stack_score_percentile,ebm_probability,merchant_category,auth_method,channel,merchant_risk_score,velocity_score,cvv_retry_count,customer_age,amount_usd
+missed fraud #1,450410,79.0,0.0040814971422607205,Electronics,OTP,Online,55.3,23.0,0,54,831.27
+missed fraud #2,379420,79.9,0.0049444947131409185,Online Retail,Biometric,POS,43.2,34.2,0,72,48.08
+missed fraud #3,549432,73.1,0.004321041173121006,Restaurants,3D Secure,POS,38.0,30.5,0,81,44.46
+caught fraud,26562,99.8,0.9312474656181982,Fuel,OTP,Online,50.1,10.1,1,65,48.57
