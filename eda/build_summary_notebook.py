@@ -1,6 +1,7 @@
 """Build notebooks/summary.ipynb: a short, read-only summary with 4 figures.
 The cells are executed here, in one namespace, and their printed output and figures are stored in the notebook
 (nbformat 4 JSON written directly; no Jupyter needed). Needs data/raw/train.csv and the saved OOF predictions.
+Also saves the figures as figures/<name>.png (FIG_NAMES) for the README.
 Run: .venv/bin/python -m eda.build_summary_notebook
 """
 import ast
@@ -194,8 +195,12 @@ the likely ceiling for every model."""),
 ]
 
 
+# matplotlib figures in notebook order, also saved to figures/ for the README
+FIG_NAMES = ["signal_per_column", "model_comparison", "caught_by_signals", "fraud_rate_by_band", "missed_examples"]
+
+
 def run():
-    ns, cells = {}, []
+    ns, cells, nfig = {}, [], 0
     for kind, src in CELLS:
         if kind == "md":
             cells.append({"cell_type": "markdown", "metadata": {}, "source": src})
@@ -216,6 +221,8 @@ def run():
         for n in plt.get_fignums():
             b = io.BytesIO()
             plt.figure(n).savefig(b, format="png", facecolor="#fcfcfb")
+            (ROOT / "figures" / f"{FIG_NAMES[nfig]}.png").write_bytes(b.getvalue())
+            nfig += 1
             outputs.append({"output_type": "display_data", "metadata": {},
                             "data": {"image/png": base64.b64encode(b.getvalue()).decode(), "text/plain": "<Figure>"}})
         plt.close("all")
